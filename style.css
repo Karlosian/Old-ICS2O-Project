@@ -1,0 +1,77 @@
+/*no dragging allowed for whole site*/
+* {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#gamecontainercontainer{
+ width: 1100px;
+  height: 700px;
+  margin: auto;
+  border: 1px solid black;
+}
+/* css button style from https://cssbuttons.app/
+*/
+.cssbutton{
+    border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #36a2eb;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+}
+.cssbutton:disabled{
+  background-color:#607d90; ;
+}
+
+#tutorial{
+  background-color: #134f77;
+}
+#powerupcontainer{
+  border: 1px solid white;
+  margin: 50px;
+  font-size: 30px;
+}
+
+#gamecontainer {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px
+}
+#infocolumn{
+  float: right;
+  height: 605px;
+  margin-top: 50px;
+  margin-right: 30px;
+  width: 200px;
+  border: 2px solid blue;
+  background-color: white;
+}
+
+
+#progress-bar {
+  width: 0;
+  height: 30px;
+  background-color: #6716fe;
+}
+
+#progcontainer{
+  width: 70px;
+  border: 2px solid black;
+  margin-left: 60px;
+}

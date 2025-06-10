@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Maze level editor!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+  <center><h1 id=yomama>Level Editor!</h1></center>
+<div id=gamecontainercontainer>
+<div id=infocolumn>
+  <center>
+  <button class=cssbutton id=startme onclick="tutorial()">
+Tutorial  (non-functional)  </button>
+      <button class=cssbutton id=tutorial onclick='setSelect("blank")'>Delete</button>
+  <button class=cssbutton id=tutorial onclick='setSelect("wall")' style='background-color: black;'>Wall</button>
+   <button class=cssbutton id=tutorial onclick='setSelect("coin")' style='background-color: orange;'>Coin</button>
+  <button class=cssbutton id=tutorial onclick='setSelect("end")' style='background-color: green;'>End</button>
+  <button class=cssbutton id=tutorial onclick='setSelect("start")' style='background-color: blue;'>Start</button>
+     <button class=cssbutton id=tutorial onclick='setSelect("power")'style='background-color: pink;'>Power Up</button>
+  <button class=cssbutton id=tutorial onclick='nextStep()' style='background-color: red;'>Save/Add Moving</button>
+     
+
+
+    
+    </center>
+</div>
+  <script src="script.js">
+
+  </script>
+   <script src="leveleditor.js">
+  </script>
+</div>
+   <a href=index.html>Main Game!</a>
+   <a href=level-player.html>Level Player!</a>
+  <p id=seedbox></p>
+</body>
+</html>
